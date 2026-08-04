@@ -98,20 +98,17 @@ Dispatches active test payloads (e.g., test page print jobs) with initialization
 
 ## 🚀 Quick Start / Demonstration
 
-### Demo 1: Automated Printer Setup & Test Print
-Here is a live demonstration showing **SDIS** automatically detecting connected printers, binding dynamic USB ports, executing silent driver installations, and running active test page jobs:
 
-<video src="https://github.com/user-attachments/assets/08c10213-b089-44ee-b6f7-a2ceed95bb1b" controls width="100%"></video>
 
----
+Click the links below to watch the full-resolution system demonstrations:
 
-### Demo 2: Scanner Module Detection & WIA Scanning Test
-Demonstrating low-level HP ScanJet scanner detection, INF driver staging, WIA refresh cycles, and executing an active test scan:
+* 🎬 **[Watch Demo 1: Automated Printer Setup & Test Print](https://github.com/user-attachments/assets/08c10213-b089-44ee-b6f7-a2ceed95bb1b)**  
+  *Automated dynamic USB port binding, silent INF driver installation, and functional test page execution.*
 
-<video src="https://github.com/user-attachments/assets/05c648e1-5f7f-43fa-9fe3-45aa3e35efcf
-" controls width="100%"></video>
+* 🎬 **[Watch Demo 2: Scanner Module Detection & WIA Scanning Test](https://github.com/user-attachments/assets/05c648e1-5f7f-43fa-9fe3-45aa3e35efcf)**  
+  *Low-level scanner detection, driver staging, WIA cycle refresh, and active test scan execution.*
 
-> 💡 **Key Automation Capabilities:**
+> 💡 **Key Automation Capabilities Featured:**
 > - **Zero-Touch Execution:** Multi-device automatic hardware identification.
 > - **Driver Staging:** Seamless silent INF package execution without user prompts.
 > - **Operational Validation:** Automated post-installation testing for both print jobs and scanner imaging.
