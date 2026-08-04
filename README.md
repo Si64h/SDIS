@@ -101,14 +101,15 @@ Dispatches active test payloads (e.g., test page print jobs) with initialization
 ### Demo 1: Automated Printer Setup & Test Print
 Here is a live demonstration showing **SDIS** automatically detecting connected printers, binding dynamic USB ports, executing silent driver installations, and running active test page jobs:
 
-<video src="https://github.com/user-attachments/assets/a8db5803-7146-4a15-a88f-709379fd275f" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/08c10213-b089-44ee-b6f7-a2ceed95bb1b" controls width="100%"></video>
 
 ---
 
 ### Demo 2: Scanner Module Detection & WIA Scanning Test
 Demonstrating low-level HP ScanJet scanner detection, INF driver staging, WIA refresh cycles, and executing an active test scan:
 
-<video src="https://github.com/user-attachments/assets/8b925933-f18c-49e9-b91d-956faeadcc65" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/05c648e1-5f7f-43fa-9fe3-45aa3e35efcf
+" controls width="100%"></video>
 
 > 💡 **Key Automation Capabilities:**
 > - **Zero-Touch Execution:** Multi-device automatic hardware identification.
