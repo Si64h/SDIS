@@ -1,7 +1,8 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3fd2f3e7-c5f3-47f9-bd23-7a45071e2203" alt="SDIS Logo" width="160" />
+  <img src="https://github.com/user-attachments/assets/77c4ec39-703f-4509-9fb1-f75c6dde53f8" alt="SDIS Logo" width="160" />
 
   # SDIS — Smart Driver Installation System
+</div>
 
   ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell) ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%2FServer-0078D6?logo=windows) ![License](https://img.shields.io/badge/License-Proprietary-red) ![Version](https://img.shields.io/badge/Version-v10.1%20Enterprise-brightgreen)
 
