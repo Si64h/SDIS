@@ -14,6 +14,7 @@
 ## 📋 Table of Contents
 - [Executive Overview](#executive-overview)
 - [✨ Key Features](#-key-features)
+- [👥 Engineering & Development Team](#-engineering--development-team)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
@@ -43,6 +44,23 @@ By automating the entire lifecycle—from low-level hardware detection and 5-tie
 - 📊 **Comprehensive Reporting** – Generates detailed logs and summary reports (JSON/HTML) for audit and compliance.
 - 🔄 **Port Binding & Validation** – Ensures drivers are correctly attached to virtual ports and performs functional readiness tests (e.g., test print jobs).
 - 🌐 **Multi-Environment Ready** – Seamlessly works across Windows 10, Windows 11, and Windows Server 2019/2022.
+
+📑 [Back to Table of Contents](#-table-of-contents)
+
+---
+
+## 👥 Engineering & Development Team
+
+SDIS was architected and engineered under the **KAMC IT Automation Framework** to streamline dynamic enterprise IT deployment.
+
+### Lead Architect & Supervisor
+* **Eng. Jameel Hawary** — *Lead Developer & Enterprise IT Automation Supervisor*
+
+### Core Engineering Team (Legends Team)
+* **Shrouq Al-Hazmi** — *Lead Automation Developer & Software Architect*
+* **Raghad Al-Shanbari** — *Systems Automation Engineer*
+* **Tala Al-Qurashi** — *Software & Integration Engineer*
+* **Turki Al-Sulami** — *IT Systems Specialist*
 
 📑 [Back to Table of Contents](#-table-of-contents)
 
@@ -98,8 +116,6 @@ Dispatches active test payloads (e.g., test page print jobs) with initialization
 
 ## 🚀 Quick Start / Demonstration
 
-
-
 Click the links below to watch the full-resolution system demonstrations:
 
 * 🎬 **[Watch Demo 1: Automated Printer Setup & Test Print](https://github.com/user-attachments/assets/08c10213-b089-44ee-b6f7-a2ceed95bb1b)**  
@@ -112,3 +128,5 @@ Click the links below to watch the full-resolution system demonstrations:
 > - **Zero-Touch Execution:** Multi-device automatic hardware identification.
 > - **Driver Staging:** Seamless silent INF package execution without user prompts.
 > - **Operational Validation:** Automated post-installation testing for both print jobs and scanner imaging.
+
+📑 [Back to Table of Contents](#-table-of-contents)
