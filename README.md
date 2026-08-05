@@ -1,5 +1,6 @@
-<div align="center">
-  <img src="YOUR_LOGO_URL_HERE" alt="SDIS Logo" width="160" />
+
+ align="center">
+  <img src="https://github.com/user-attachments/assets/67ac89c1-e896-4614-ac47-f92d93bc0dbc" alt="SDIS Logo" width="160" />
 
   # SDIS — Smart Driver Installation System
 
