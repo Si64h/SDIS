@@ -1,6 +1,6 @@
 
- align="center">
-  <img src="https://github.com/user-attachments/assets/67ac89c1-e896-4614-ac47-f92d93bc0dbc" alt="SDIS Logo" width="160" />
+ <div align="center">
+  <img src="https://github.com/user-attachments/assets/67ac89c1-e896-4614-ac47-f92d93bc0dbc" alt="SDIS Logo" width="160" style="mix-blend-mode: multiply;" />
 
   # SDIS — Smart Driver Installation System
 
