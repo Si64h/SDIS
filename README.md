@@ -16,8 +16,8 @@
 
 ## 📋 Table of Contents
 - [Executive Overview](#executive-overview)
-- [✨ Key Features](#-key-features)
-- [🧪 Production Validation & Enterprise Scale](#-production-validation--enterprise-scale)
+- [ 🌟 Key Features](#-key-features)
+- [ ✅ Production Validation & Enterprise Scale](#-production-validation--enterprise-scale)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
@@ -48,7 +48,7 @@ By automating the entire lifecycle—from low-level hardware detection and 5-tie
 
 ---
 
-## 🧪 Production Validation & Enterprise Scale
+## ✅ Production Validation & Enterprise Scale
 
 SDIS was rigorously field-tested and validated across production networks, delivering seamless zero-touch driver deployments across **2,000+ total endpoints**.
 
@@ -75,6 +75,8 @@ SDIS was rigorously field-tested and validated across production networks, deliv
   * `Zebra ZT411` — **2** units
 
 ---
+### 📠 Document Scanners & Imaging Peripherals
+> *Validated for automated driver staging, WIA imaging subsystem refresh, and automated active scan tests.*
 
 ### 🖥️ Tested Client Architecture
 > *Successfully tested across enterprise desktop hardware, workstations, and mini PCs.*
