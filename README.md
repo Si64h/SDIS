@@ -77,6 +77,8 @@ SDIS was rigorously field-tested and validated across production networks, deliv
 ---
 ### 📠 Document Scanners & Imaging Peripherals
 > *Validated for automated driver staging, WIA imaging subsystem refresh, and automated active scan tests.*
+* **HP Professional Document Scanners**
+  * `HP ScanJet Pro N4000 snw1` *(Network & USB Sheet-fed Scanner)* — **50** units
 
 ### 🖥️ Tested Client Architecture
 > *Successfully tested across enterprise desktop hardware, workstations, and mini PCs.*
