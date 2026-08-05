@@ -8,7 +8,6 @@
 > **Lead Developer:** `Eng. Jameel Hawary`  
 > **Legends Team:** `Shrouq Al-Hazmi` | `Raghad Al-Shanbari` | `Tala Al-Qurashi` | `Turki Al-Sulami`
 
-
 ---
 
 > **Notice:** This repository contains conceptual architecture, documentation, and demonstration logic for SDIS. The full source code and core deployment engine are proprietary and protected under intellectual property registration.
@@ -18,6 +17,7 @@
 ## 📋 Table of Contents
 - [Executive Overview](#executive-overview)
 - [✨ Key Features](#-key-features)
+- [🧪 Production Validation & Enterprise Scale](#-production-validation--enterprise-scale)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
@@ -43,6 +43,49 @@ By automating the entire lifecycle—from low-level hardware detection and 5-tie
 - 📊 **Comprehensive Reporting** – Generates detailed logs and summary reports (JSON/HTML) for audit and compliance.
 - 🔄 **Port Binding & Validation** – Ensures drivers are correctly attached to virtual ports and performs functional readiness tests (e.g., test print jobs).
 - 🌐 **Multi-Environment Ready** – Seamlessly works across Windows 10, Windows 11, and Windows Server 2019/2022.
+
+📑 [Back to Table of Contents](#-table-of-contents)
+
+---
+
+## 🧪 Production Validation & Enterprise Scale
+
+SDIS was rigorously field-tested and validated across production networks, delivering seamless zero-touch driver deployments across **2,000+ total endpoints**.
+
+```
+  ┌───────────────────────────┬───────────────────────────┐
+  │   🖨️ Verified Printers    │   🖥️ Workstations / PCs   │
+  │        495+ Units         │       1,499+ Endpoints    │
+  └───────────────────────────┴───────────────────────────┘
+```
+
+### 🖨️ Supported & Verified Printers
+> *Tested across high-volume office laser printers, MFPs, and critical healthcare/industrial barcode label printers.*
+
+* **HP Enterprise & Office Series**
+  * `HP LaserJet Pro M402-M403` — **117** units
+  * `HP LaserJet P2055d / dn` — **135** units
+  * `HP PageWide Managed MFP P57750dw` — **100** units
+  * `Hewlett-Packard HP LaserJet M402dn` — **101** units
+
+* **Zebra Industrial & Healthcare Thermal Printers**
+  * `Zebra HC100` *(Patient Wristband Printer)* — **20** units
+  * `Zebra Stripe S4M` — **13** units
+  * `Zebra ZT200 / ZT221` — **7** units
+  * `Zebra ZT411` — **2** units
+
+---
+
+### 🖥️ Tested Client Architecture
+> *Successfully tested across enterprise desktop hardware, workstations, and mini PCs.*
+
+| Vendor | Workstation / PC Model | Fleet Count | Status |
+| :--- | :--- | :---: | :---: |
+| **HP** | EliteDesk 800 G6 SFF | **802** | 🟢 Verified |
+| **HP** | Z240 SFF Workstation | **455** | 🟢 Verified |
+| **HP** | Z230 SFF Workstation | **188** | 🟢 Verified |
+| **Dell** | OptiPlex 7010 | **54** | 🟢 Verified |
+| **HP** | Mini Series / Z2 / 8200 | *Lab Tested* | 🟢 Verified |
 
 📑 [Back to Table of Contents](#-table-of-contents)
 
@@ -88,7 +131,7 @@ Dispatches active test payloads (e.g., test page print jobs) with initialization
 ## Prerequisites & Requirements
 - **Operating System:** Windows 10 (21H2+), Windows 11, or Windows Server 2019/2022.
 - **PowerShell:** Version 5.1 or PowerShell 7.x (with `-ExecutionPolicy Bypass` allowed).
-- **Network Access:** Read access to the driver repository (local drive or network share e.g., `\\DeployServer\DriverRepo`).
+- **Network Access:** Read access to the driver repository (local drive or network share e.g., `\DeployServer\DriverRepo`).
 - **Permissions:** Local Administrator rights (required for INF staging, service control, and registry modifications).
 - **Dependencies:** .NET Framework 4.8 (required for certain EXE unpackers and metadata parsing).
 
