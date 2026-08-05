@@ -5,9 +5,8 @@
 > **Automated Hardware Detection & Silent Driver Deployment Engine for Enterprise Infrastructure**  
 > *Zero-Touch Automation | PowerShell / CLI Core*  
 >   
-> [!NOTE]
-> **Lead Developer:** Eng. Jameel Hawary  
-> **Legends Team:** Shrouq Al-Hazmi, Raghad Al-Shanbari, Tala Al-Qurashi, Turki Al-Sulami
+> **Lead Developer:** `Eng. Jameel Hawary`  
+> **Legends Team:** `Shrouq Al-Hazmi` | `Raghad Al-Shanbari` | `Tala Al-Qurashi` | `Turki Al-Sulami`
 
 ---
 
