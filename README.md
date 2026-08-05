@@ -22,10 +22,6 @@
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
 - [🚀 Quick Start / Demonstration](#-quick-start--demonstration)
-- [⚙️ Command-Line Parameters](#️-command-line-parameters)
-- [🧩 Troubleshooting Common Issues](#-troubleshooting-common-issues)
-- [Enterprise Business Impact](#enterprise-business-impact)
-- [Contact & Licensing](#contact--licensing)
 
 ---
 
