@@ -89,7 +89,7 @@ SDIS was rigorously field-tested and validated across production networks, deliv
 | **HP** | Z240 SFF Workstation | **455** | 🟢 Verified |
 | **HP** | Z230 SFF Workstation | **188** | 🟢 Verified |
 | **Dell** | OptiPlex 7010 | **54** | 🟢 Verified |
-| **HP** | Mini Series / Z2 / 8200 | *Lab Tested* | 🟢 Verified |
+
 
 📑 [Back to Table of Contents](#-table-of-contents)
 
