@@ -3,7 +3,10 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell) ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%2FServer-0078D6?logo=windows) ![License](https://img.shields.io/badge/License-Proprietary-red) ![Version](https://img.shields.io/badge/Version-v10.1%20Enterprise-brightgreen)
 
 > **Automated Hardware Detection & Silent Driver Deployment Engine for Enterprise Infrastructure**  
-> *Zero-Touch Automation | PowerShell / CLI Core*
+> *Zero-Touch Automation | PowerShell / CLI Core*  
+>   
+> **Lead Developer:** Eng. Jameel Hawary  
+> **Legends Team:** Shrouq Al-Hazmi, Raghad Al-Shanbari, Tala Al-Qurashi, Turki Al-Sulami
 
 ---
 
@@ -14,7 +17,6 @@
 ## 📋 Table of Contents
 - [Executive Overview](#executive-overview)
 - [✨ Key Features](#-key-features)
-- [👥 Engineering & Development Team](#-engineering--development-team)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
@@ -44,23 +46,6 @@ By automating the entire lifecycle—from low-level hardware detection and 5-tie
 - 📊 **Comprehensive Reporting** – Generates detailed logs and summary reports (JSON/HTML) for audit and compliance.
 - 🔄 **Port Binding & Validation** – Ensures drivers are correctly attached to virtual ports and performs functional readiness tests (e.g., test print jobs).
 - 🌐 **Multi-Environment Ready** – Seamlessly works across Windows 10, Windows 11, and Windows Server 2019/2022.
-
-📑 [Back to Table of Contents](#-table-of-contents)
-
----
-
-## 👥 Engineering & Development Team
-
-SDIS was architected and engineered under the **KAMC IT Automation Framework** to streamline dynamic enterprise IT deployment.
-
-### Lead Architect & Supervisor
-* **Eng. Jameel Hawary** — *Lead Developer & Enterprise IT Automation Supervisor*
-
-### Core Engineering Team (Legends Team)
-* **Shrouq Al-Hazmi** — *Lead Automation Developer & Software Architect*
-* **Raghad Al-Shanbari** — *Systems Automation Engineer*
-* **Tala Al-Qurashi** — *Software & Integration Engineer*
-* **Turki Al-Sulami** — *IT Systems Specialist*
 
 📑 [Back to Table of Contents](#-table-of-contents)
 
