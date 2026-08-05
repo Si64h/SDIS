@@ -5,8 +5,8 @@
 > **Automated Hardware Detection & Silent Driver Deployment Engine for Enterprise Infrastructure**  
 > *Zero-Touch Automation | PowerShell / CLI Core*  
 >   
-> **Lead Developer:** ![](https://img.shields.io/badge/Eng.-Jameel%20Hawary-blue)  
-> **Legends Team:** ![](https://img.shields.io/badge/Shrouq-Al--Hazmi-purple) ![](https://img.shields.io/badge/Raghad-Al--Shanbari-purple) ![](https://img.shields.io/badge/Tala-Al--Qurashi-purple) ![](https://img.shields.io/badge/Turki-Al--Sulami-purple)
+> **Lead Developer:** `Eng. Jameel Hawary`  
+> **Legends Team:** `Shrouq Al-Hazmi` | `Raghad Al-Shanbari` | `Tala Al-Qurashi` | `Turki Al-Sulami`
 
 
 ---
