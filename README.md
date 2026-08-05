@@ -7,7 +7,8 @@
   ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell) ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%2FServer-0078D6?logo=windows) ![License](https://img.shields.io/badge/License-Proprietary-red) ![Version](https://img.shields.io/badge/Version-v10.1%20Enterprise-brightgreen)
 
   > **Automated Hardware Detection & Silent Driver Deployment Engine for Enterprise Infrastructure**  
-  > *Zero-Touch Automation | PowerShell / CLI Core*  
+  > *Zero-Touch Automation | PowerShell / CLI Core* 
+ 
 > **Lead Developer:** `Eng. Jameel Hawary`  
 > **Legends Team:** `Shrouq Al-Hazmi` | `Raghad Al-Shanbari` | `Tala Al-Qurashi` | `Turki Al-Sulami`
 
