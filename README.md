@@ -58,7 +58,7 @@ By automating the entire lifecycle—from low-level hardware detection and 5-tie
 
 SDIS was rigorously field-tested and validated across production networks, delivering seamless zero-touch driver deployments across **2,000+ total endpoints**.
 
-┌───────────────────────────┬───────────────────────────┐ │ 🖨️ Verified Printers │ 🖥️ Workstations / PCs │ │ 495+ Units │ 1,499+ Endpoints │ └───────────────────────────┴───────────────────────────┘
+
 ### 🖨️ Supported & Verified Printers
 > *Tested across high-volume office laser printers, MFPs, and critical healthcare/industrial barcode label printers.*
 
