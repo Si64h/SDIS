@@ -23,7 +23,7 @@
 - [Executive Overview](#executive-overview)
 - [ Key Features](#-key-features)
 - [ Production Validation & Enterprise Scale](#-production-validation--enterprise-scale)
-- [JSON Configuration & Data Architecture](#-json-configuration--data-architecture)
+- [JSON Configuration & Data Architecture](#️-json-configuration--data-architecture)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
