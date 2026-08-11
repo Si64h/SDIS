@@ -22,6 +22,7 @@
 - [Executive Overview](#executive-overview)
 - [ Key Features](#-key-features)
 - [ Production Validation & Enterprise Scale](#-production-validation--enterprise-scale)
+- [JSON Configuration & Data Architecture](#-json-configuration--data-architecture)
 - [System Architecture & 5-Stage Pipeline](#system-architecture--5-stage-pipeline)
 - [Driver Matching Hierarchy](#driver-matching-hierarchy-priority-tiers)
 - [Prerequisites & Requirements](#prerequisites--requirements)
@@ -98,6 +99,31 @@ SDIS was rigorously field-tested and validated across production networks, deliv
 📑 [Back to Table of Contents](#-table-of-contents)
 
 ---
+## 🗂️ JSON Configuration & Data Architecture
+SDIS utilizes structured JSON files to drive core system memory, automation reporting, and shared enterprise intelligence:
+
+### 1. `printer_index.json` — Script Memory & Self-Learning Engine
+Acts as the cumulative knowledge base, mapping each printer model/device to its verified driver path to eliminate redundant file searches and reduce lookup times from seconds to sub-milliseconds.
+* **Indexing (`Add-ToPrinterIndex`):** Automatically registers the Hardware ID alongside the successful driver directory path and deployment method after a successful installation.
+* **Instant Lookup (`Find-InPrinterIndex`):** Queries incoming devices (e.g., `USB\VID_03F0&PID_5C17&MI_00`) directly against the index to bypass full directory scanning.
+* **Network Synchronization:** Stored centrally on a network share (`\\10.11.17.81\...\printer_index.json`), allowing every endpoint to share and benefit from newly acquired intelligence dynamically.
+* **Bounded Memory & Lazy Writing:** Maintains a capped history (max 30 paths per printer) and implements a *Dirty flag* mechanism to write to disk only when state changes occur, minimizing unnecessary I/O overhead.
+
+### 2. `result.json` — Execution Reporting & Automation Feed
+Powers post-execution monitoring, auditing, and automated workflow triggers.
+* **Summary Generation (`Write-ResultJson`):** Records global success/failure metrics, individual device statuses, matching plans, and applied deployment methods.
+* **Smart Exit Codes (`Exit Code`):** `Get-ResultExitCode` translates session outcomes into standard exit codes (`0 = Full Success`, `1 = Partial Failure`, `2 = Critical Failure`).
+* **Automation Integration:** Consumed natively by enterprise management systems (`SCCM / Intune / Scripts`) via `C:\DriverTemp\result.json` to track host computers, timestamps, and compliance states.
+
+### 3. Shared Knowledge Repository (`knowledge / clixml`)
+* Dedicated storage for tracking successful printer deployment strategies and verified `EXE / INF` installation patterns to prevent historical failures in future deployments.
+
+> 💡 **Executive Summary:**
+> * `printer_index.json` = **Memory** (What have we learned?)
+> * `result.json` = **Report** (What did we execute, and did it succeed?)
+> * Unified JSON formatting ensures seamless cross-system parsing, analytics, and enterprise interoperability.
+
+📑 [Back to Table of Contents](#-table-of-contents)
 
 ## System Architecture & 5-Stage Pipeline
 The core execution flow operates sequentially through five fully automated stages without requiring user intervention:
